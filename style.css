@@ -31,20 +31,20 @@ padding: 2px;
 }
 .calculator-item
  {
-     border: 1px solid black;
-    box-shadow: 2px 2px 2px gray;
+     border: 1px solid yellow;
+    box-shadow: 2px 2px 2px blue;
     font-weight: bolder;
     padding: 2px;
  }
 
 .last
 {
-    background-color: rgba(255,2,9,.5);
+    background-color: rgba(255,2,8,.5);
 }
 .calculator-item:active
 {
     border: 1px solid black;
-    box-shadow: 4px 4px 4px blue;
+    box-shadow: 5px 5px 5px green;
 }
 .calculator-item:hover
 {
