@@ -45,6 +45,12 @@ border-top: 2px solid rgba(0,0,0,.9);">  </h4>
     <div id="+" class="col-3 calculator-item last p-1" onclick="addToExpression(event,document.getElementById('+').innerText)">+</div>
 </div>
     <div class="row">
+    <div id="-" class="col-3 calculator-item p-1" onclick="addToExpression(event,document.getElementById('-').innerText)">-</div>
+    <div id="*" class="col-3 calculator-item p-1" onclick="addToExpression(event,document.getElementById('*').innerText)">*</div>
+    <div id="/" class="col-3 calculator-item p-1" onclick="addToExpression(event,document.getElementById('/').innerText)">/</div>
+    <div id="%" class="col-3 calculator-item last p-1" onclick="addToExpression(event,document.getElementById('%').innerText)">%</div>
+</div>
+    <div class="row">
         <div id="0" class="col-6 calculator-item p-1" onclick="addToExpression(event,document.getElementById('0').innerText)">0</div>
         <div class="col-6 calculator-item p-1 bg-success" onclick="evaluateExp(event);" > = </div>
 
